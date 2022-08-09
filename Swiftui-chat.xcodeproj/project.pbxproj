@@ -11,6 +11,7 @@
 		1C995BF528A2012500283345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C995BF428A2012500283345 /* ContentView.swift */; };
 		1C995BF728A2013100283345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C995BF628A2013100283345 /* Assets.xcassets */; };
 		1C995BFA28A2013100283345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C995BF928A2013100283345 /* Preview Assets.xcassets */; };
+		1C995C0728A2093400283345 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C995C0628A2093400283345 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1C995BF428A2012500283345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C995BF628A2013100283345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C995BF928A2013100283345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C995C0628A2093400283345 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,12 @@
 			isa = PBXGroup;
 			children = (
 				1C995BF228A2012500283345 /* Swiftui_chatApp.swift */,
-				1C995BF428A2012500283345 /* ContentView.swift */,
+				1C995C0228A201A800283345 /* Models */,
+				1C995C0128A2018900283345 /* ViewModels */,
+				1C995C0028A2017F00283345 /* Views */,
+				1C995C0328A201B100283345 /* Services */,
+				1C995C0528A201E500283345 /* Fonts */,
+				1C995C0428A201C400283345 /* Helpers */,
 				1C995BF628A2013100283345 /* Assets.xcassets */,
 				1C995BF828A2013100283345 /* Preview Content */,
 			);
@@ -65,6 +72,50 @@
 				1C995BF928A2013100283345 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C995C0028A2017F00283345 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C995BF428A2012500283345 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C995C0128A2018900283345 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C995C0228A201A800283345 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C995C0328A201B100283345 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1C995C0428A201C400283345 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1C995C0528A201E500283345 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C995C0628A2093400283345 /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C995BF528A2012500283345 /* ContentView.swift in Sources */,
+				1C995C0728A2093400283345 /* Fonts.swift in Sources */,
 				1C995BF328A2012500283345 /* Swiftui_chatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
